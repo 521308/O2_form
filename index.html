@@ -1,0 +1,44 @@
+<html>
+<head>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<title>Форма1</title>	
+	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class='main'>
+		<p align="left">Мой кабинет</p>
+		<div class="sidebar">
+			<div class="sidebar-center">
+				<div class="profile">
+					<div class="pict-fone">
+						<div class="pict-p"><svg width="20.83" height="20.83" viewBox="0 0 21 21" fill="white" xmlns="http://www.w3.org/2000/svg">
+		                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 10.4167C0 16.1696 4.6637 20.8333 10.4167 20.8333C16.1696 20.8333 20.8333 16.1696 20.8333 10.4167C20.8333 4.6637 16.1696 0 10.4167 0C4.6637 0 0 4.6637 0 10.4167ZM2.08333 10.4167C2.08333 5.81429 5.81429 2.08333 10.4167 2.08333C15.019 2.08333 18.75 5.81429 18.75 10.4167C18.75 15.019 15.019 18.75 10.4167 18.75C5.81429 18.75 2.08333 15.019 2.08333 10.4167ZM7.29167 11.4583C7.29167 10.883 6.8253 10.4167 6.25 10.4167C5.6747 10.4167 5.20833 10.883 5.20833 11.4583C5.20833 14.3348 7.54018 16.6667 10.4167 16.6667C13.2932 16.6667 15.625 14.3348 15.625 11.4583C15.625 10.883 15.1586 10.4167 14.5833 10.4167C14.008 10.4167 13.5417 10.883 13.5417 11.4583C13.5417 13.1842 12.1426 14.5833 10.4167 14.5833C8.69078 14.5833 7.29167 13.1842 7.29167 11.4583ZM6.25 8.33333C6.8253 8.33333 7.29167 7.86696 7.29167 7.29167C7.29167 7.86696 7.75804 8.33333 8.33333 8.33333C8.90863 8.33333 9.375 7.86696 9.375 7.29167C9.375 6.14107 8.44226 5.20833 7.29167 5.20833C6.14107 5.20833 5.20833 6.14107 5.20833 7.29167C5.20833 7.86696 5.6747 8.33333 6.25 8.33333ZM13.5417 7.29167C13.5417 7.86696 13.0753 8.33333 12.5 8.33333C11.9247 8.33333 11.4583 7.86696 11.4583 7.29167C11.4583 6.14107 12.3911 5.20833 13.5417 5.20833C14.6923 5.20833 15.625 6.14107 15.625 7.29167C15.625 7.86696 15.1586 8.33333 14.5833 8.33333C14.008 8.33333 13.5417 7.86696 13.5417 7.29167Z" fill="#FC6E1D"/>
+						</div>
+					</div>
+					<div class="name"> <strong>Михаил Мингалев</strong>
+					<div class="role">Покупатель</div></div>
+				</div>
+				<div class ="list">
+					<ul class="menu">
+				        <li class="btn" id="mprofile"><div class="bubble"></div><a>Мой профиль</a></li>
+				        <li class="btn" ><div class="bubble"></div><a>Status Club</a></li>
+				        <li class="btn" ><div class="bubble"></div><a>Заказы</a></li>
+				        <li class="btn" ><div class="bubble"></div><a>Избранные товары</a></li>
+				        <li class="btn" ><div class="bubble"></div><a>Отзывы о товарах</a></li>
+				        <li class="btn" id="exit"><div class="bubble"></div><a>Выход</a></li>
+				    </ul>
+				</div>
+
+			</div>
+		</div>
+		<div class="view">
+			<iframe id="iframe">
+			</iframe>
+			<script>
+				document.getElementById('mprofile').addEventListener('click', function(){
+				document.getElementById('iframe').src='myprofile/profile.html';});
+			</script>
+		</div>
+	</div>
+</body>
+</html>
