@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="profile.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Профиль</title>
+</head>
+<body>
+	<div class="page">
+	 	<p align="left">Мой Профиль</p>
+	 	<div class="page-menu">
+	 	 	<button id="data" class="button">Личные данные</button>
+			<button id="adress" class="button">Адреса доставки</button>
+			<button id="passwd" class="button">Пароль</button>
+	 	</div>
+	 	<div class="view">
+	 		<iframe id="iframe"></iframe>
+			<script>
+				document.getElementById('data').addEventListener('click', function(){
+				document.getElementById('iframe').src='forms/profile-form.html';});
+			</script>
+		</div>
+		 </div>
+	</div>
+</body>
+</html>
