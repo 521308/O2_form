@@ -8,7 +8,7 @@
 	<title></title>
 </head>
 	<body>
-		<form>
+		<form action="index.php" method="POST">
 		  	<div class="block">
 		  		<div class="row">
 		  			<label for="email">E-mail <span>*</span></label>
@@ -74,7 +74,7 @@
 						    select.appendChild(option);
 						}
 						</script>
-					</select><select class="cell r" id="month" name="date">
+					</select><select class="cell r" id="month" name="date1">
 			    	<script>
 			  			var select = document.getElementById("month");
 			  			var months = ["Января","Февраля","Марта","Апреля","Мая","Июня","Июля","Августа","Сентября","Октября","Ноября","Декабря"];
@@ -84,7 +84,7 @@
 				                option.text = months[i];
 				                select.appendChild(option);
 						}
-			  		</script></select><select class="cell" id="year" name="date">
+			  		</script></select><select class="cell" id="year" name="date2">
 			    <script>
 		            var select = document.getElementById("year");
 		            for (var i = 1950; i <= 2014; i++) {
