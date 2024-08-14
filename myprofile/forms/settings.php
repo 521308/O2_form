@@ -1,16 +1,16 @@
 <?php
-//Пример настроек в случае, если ящик получателя почты - gmail.com
+
 return [
 	'mail_settings' => [               
 	    'host'       => 'smtp.gmail.com',                   
 	    'auth'   => true,                 
-	    'username'   => 'Свой email',                    
-	    'password'  => 'Свой пароль приложения',                               
+	    'username'   => 'aelbert.kaitmazov@gmail.com',                    
+	    'password'  => 'lwnx iyej bdze tjdl',                               
 	    'secure' => "ssl",            
 	    'port'       => 465,
 	    'charset'    => 'UTF-8',
-	    'fromUsername' => 'Имя отправителя', 
-		'fromEmail' =>  'Почта отправителя (можно указать свою)',
+	    'fromUsername' => 'Письмо с формы', 
+		'fromEmail' =>  'aelbert.kaitmazov@gmail.com',
 		'is_html' => true,
 	],
 ];
