@@ -4,13 +4,13 @@ return [
 	'mail_settings' => [               
 	    'host'       => 'smtp.gmail.com',                   
 	    'auth'   => true,                 
-	    'username'   => '',                    
-	    'password'  => '',                               
+	    'username'   => 'aelbert.kaitmazov@gmail.com',                    
+	    'password'  => 'lwnx iyej bdze tjdl',                               
 	    'secure' => "ssl",            
 	    'port'       => 465,
 	    'charset'    => 'UTF-8',
 	    'fromUsername' => 'Письмо с формы', 
-		'fromEmail' =>  '',
+		'fromEmail' =>  'aelbert.kaitmazov@gmail.com',
 		'is_html' => true,
 	],
 ];
